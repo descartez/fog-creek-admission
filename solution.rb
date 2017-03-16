@@ -40,7 +40,7 @@ end
 # --------------------------------
 #           TESTS
 # --------------------------------
-
+# Interesting note: If the word has more than one of the same letter, it doesn't work. Is there a way to fix this?
 def test(test_number, test_str, desired)
   puts "-"*15
   puts "TEST #{test_number}"
