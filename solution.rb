@@ -21,7 +21,7 @@ module Decoder
   end
 
   def self.array_hash
-    @big_hash_array = @big_hash.sort_by{|k,v| v}.reverse
+    @big_hash_array = @big_hash.sort_by{|k,v| v }.reverse
   end
 
   def self.serve_string
